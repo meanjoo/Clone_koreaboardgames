@@ -1,0 +1,36 @@
+.Title {
+    height: 80px;
+    display: flex;
+    justify-content: space-around; /* 메인축 방향 정렬. 지금은 메인축이 기본값인 row */
+    align-items: center; /* 메인축과 수직인 방향 정렬*/
+}
+
+.Logo img {
+    width: 250px;
+    height: auto;
+}
+
+.Login {
+    padding: 2px;
+    outline: 1px solid black;
+}
+
+.Category {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    /* outline: 1px dotted red; */
+}
+
+.Category > * {
+    text-decoration: none;
+    color: black;
+    float: left;
+    width: 12.5%;
+    text-align: center; /* 텍스트 가운데 정렬*/
+    line-height: 50px; /* 텍스트 중앙 정렬 */
+}
+
+.Category > *:hover {
+    font-weight: bold;
+}
